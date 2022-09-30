@@ -19,8 +19,9 @@ www - смотрит на обоих клиентов
 
 *) настроить все без выключения selinux   
 Как запустить:
-
+```
 git clone git@github.com:marozov/dns.git && cd dns && vagrant up
+```
 Как проверить работоспособность:
 
 После отработки vagrant up можно повыполнять dns запросы на client и client2.

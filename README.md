@@ -25,7 +25,7 @@ git clone git@github.com:marozov/dns.git && cd dns && vagrant up
 
 После отработки vagrant up можно повыполнять dns запросы на client и client2.
 Для client:
-
+```
 [vagrant@client ~]$ nslookup dns.lab 192.168.50.11
 Server:		192.168.50.11
 Address:	192.168.50.11#53
@@ -168,3 +168,4 @@ Server:		192.168.50.11
 Address:	192.168.50.11#53
 
 ** server can't find www.newdns.lab: NXDOMAIN
+```
